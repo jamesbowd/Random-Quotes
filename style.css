@@ -19,11 +19,14 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
   padding: 3em;
   margin: 0 0.5em;
-  width: 50%;
+  width: 90%;
+  border-radius: 20px;
 }
 
 .quote {
   font-size: 1.75rem;
+  color: #6c757d;
+  font-weight: 500;
 }
 
 .author {
@@ -40,9 +43,26 @@ body {
   color: white;
   background-color: #65b6ac;
   cursor: pointer;
+  border: none;
+  border-radius: 10px;
 }
 
 .btn:hover {
   color: black;
   background-color: #b09e99;
+}
+
+.quotation {
+  margin-right: 0.25em;
+}
+
+.author {
+  text-align: end;
+  color: #65b6ac;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 50%;
+  }
 }
